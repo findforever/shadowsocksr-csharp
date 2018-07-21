@@ -20,6 +20,7 @@ namespace test
             Assert.IsTrue(UpdateChecker.CompareVersion("1.2.1", "1.2") > 0);
             Assert.IsTrue(UpdateChecker.CompareVersion("2.3.1", "2.4") < 0);
             Assert.IsTrue(UpdateChecker.CompareVersion("1.3.2", "1.3.1") > 0);
+            //test
         }
 
         private void RunEncryptionRound(IEncryptor encryptor, IEncryptor decryptor)
